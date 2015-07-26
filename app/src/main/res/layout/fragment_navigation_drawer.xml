@@ -1,0 +1,5 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:choiceMode="singleChoice"
+    android:divider="#ffffff" android:dividerHeight="0.3dp"
+    android:background="@drawable/century_cine_app_bg" tools:context=".NavigationDrawerFragment" />
