@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class ImageAdapter extends BaseAdapter{
 
     Context context;
-    String[] description;
+    String[] description; //initialising string
     int[] icons;
 
     public ImageAdapter(Context c, String[] description, int[] icons){
