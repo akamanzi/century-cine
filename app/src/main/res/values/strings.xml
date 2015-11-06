@@ -6,12 +6,12 @@
     <string name="title_section3">Section 3</string>
 
     <string-array name="menu_icon_desc">
-        <item name="Home">Home</item>
-        <item name="Coming Soon">Coming Soon</item>
-        <item name="Now Showing">Now Showing</item>
-        <item name="ticket pricing">Ticket Pricing</item>
-        <item name="5D Experience">5D Experience</item>
-        <item name="Trailers">Trailers</item>
+        <item name="Company Profile">Company Profile</item>
+        <item name="Services">Services</item>
+        <item name="Solution">Solution</item>
+        <item name="News">News</item>
+        <item name="Social Media">Social Media</item>
+        <item name="Location">Location</item>
         <item name="Contact Us">Contact US</item>
     </string-array>
 
