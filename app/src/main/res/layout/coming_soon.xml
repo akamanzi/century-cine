@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/century_cine_app_bg">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/james_bond_cover"
+                android:id="@+id/latest_movie_image"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/latest_movie_image"
+                android:text="@string/james_bond_desc"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:padding="10dp"
+                android:id="@+id/movie_desc"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/coming_soon_trailer_button"
+                android:layout_below="@id/movie_desc"
+                android:layout_alignLeft="@id/movie_desc"
+                android:id="@+id/trailer_button"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@id/trailer_button"
+                android:layout_alignLeft="@id/trailer_button">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weekend_showing"
+                    android:textColor="#ffffff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weekday_showing"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>
