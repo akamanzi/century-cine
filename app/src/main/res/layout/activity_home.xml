@@ -9,6 +9,7 @@
     <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
+        <!--
         <GridView xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/gridview"
             android:layout_width="match_parent"
@@ -22,6 +23,68 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             />
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bridge_of_spies"
+                    android:id="@+id/latest_movie_image"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/latest_movie_image"
+                    android:text="@string/bridge_of_spies_desc"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:padding="10dp"
+                    android:id="@+id/movie_desc"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trailer_button"
+                    android:layout_below="@id/movie_desc"
+                    android:layout_alignLeft="@id/movie_desc"
+                    android:id="@+id/trailer_button"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/trailer_button"
+                    android:layout_alignLeft="@id/trailer_button">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/movie_length"
+                        android:textColor="#ffffff"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/release_date"
+                        android:textColor="#ffffff"
+                        android:layout_margin="5dp"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
 
     </FrameLayout>
 

@@ -1,6 +1,8 @@
 package com.app.centurycinema.newcenturycinema;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -33,6 +35,7 @@ public class Home extends AppCompatActivity
     private CharSequence mTitle;
 
     //menu icons
+    /*
     int[] icons = {
             R.drawable.attendees_new,
             R.drawable.info_booth_new,
@@ -42,16 +45,19 @@ public class Home extends AppCompatActivity
             R.drawable.live_polling_new,
             R.drawable.messaging_new
     };
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        String[] description = getResources().getStringArray(R.array.menu_icon_desc);
+       // String[] description = getResources().getStringArray(R.array.menu_icon_desc);
        // int[] icons = getResources().getIntArray(R.array.menu_icons);
 
+        /*
         GridView gridView = (GridView) findViewById(R.id.gridview);
-        gridView.setAdapter(new ImageAdapter(Home.this,description,icons));
+         gridView.setAdapter(new ImageAdapter(Home.this,description,icons));
+         */
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -66,10 +72,23 @@ public class Home extends AppCompatActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
+        /*
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
                 .commit();
+                */
+        switch (position){
+            case 1:
+                Intent coming_soon = new Intent(Home.this,ComingSoon.class);
+                startActivity(coming_soon);
+                break;
+
+            case 3:
+                Intent experience_5d = new Intent(Home.this,Experience5D.class);
+                startActivity(experience_5d);
+
+        }
     }
 
     public void onSectionAttached(int number) {
@@ -82,9 +101,11 @@ public class Home extends AppCompatActivity
             case 2:
                 mTitle = description[1];
                 break;
+
             case 3:
                 mTitle = description[2];
                 break;
+
             case 4:
                 mTitle = description[3];
                 break;
@@ -94,8 +115,10 @@ public class Home extends AppCompatActivity
             case 6:
                 mTitle = description[5];
                 break;
+            /*
             case 7:
                 mTitle = description[6];
+                */
         }
     }
 
