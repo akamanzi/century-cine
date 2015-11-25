@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-eb1f605d2394fc27f0b6b11a03a0e8c4dc2b1909.jar" />
-    </item>
-    <item
-        jar="/Users/Arnold/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3ec2cfd2e0a2b6c7a78411ea734eb34b6f17f5d5.jar" />
-    </item>
-    <item
         jar="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -28,6 +14,20 @@
         revision="21.1.2"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
         <dex dex="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/pre-dexed/debug/classes-d84cf98cfbd1609d62d95ce245d1d3ed8915d133.jar" />
+    </item>
+    <item
+        jar="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-eb1f605d2394fc27f0b6b11a03a0e8c4dc2b1909.jar" />
+    </item>
+    <item
+        jar="/Users/Arnold/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Arnold/AndroidStudioProjects/NewCenturyCinema/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3ec2cfd2e0a2b6c7a78411ea734eb34b6f17f5d5.jar" />
     </item>
 
 </items>

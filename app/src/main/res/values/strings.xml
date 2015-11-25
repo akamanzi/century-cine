@@ -6,12 +6,11 @@
     <string name="title_section3">Section 3</string>
 
     <string-array name="menu_icon_desc">
-        <item name="Company Profile">Company Profile</item>
-        <item name="Services">Services</item>
-        <item name="Solution">Solution</item>
-        <item name="News">News</item>
-        <item name="Social Media">Social Media</item>
-        <item name="Location">Location</item>
+        <item name="Home">Home</item>
+        <item name="Coming soon">Coming Soon</item>
+        <item name="Ticket Pricing">Ticket Pricing</item>
+        <item name="5D Experience">5D Experience</item>
+        <item name="Trailers">Trailers</item>
         <item name="Contact Us">Contact US</item>
     </string-array>
 
@@ -27,8 +26,30 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bridge_of_spies_desc">Tom Hanks stars as the American attorney tasked with negotiating the
+        release of a U-2 spy plane pilot who was shot down over Russia at the height of the Cold War in this
+        historical drama from DreamWorks Studios.
+        Steven Spielberg and Mark E. Platt produce a film written by Matt Charman.</string>
 
+    <string name="movie_length">Length:\n 2 hr. 15 min</string>
+    <string name="release_date">Release: 27th September</string>
+    <string name="james_bond_desc">A cryptic message from Bond’s past sends him on a trail to uncover a sinister
+        organisation. While M battles political forces to keep the secret service alive,
+        Bond peels back the layers of deceit to reveal the terrible truth behind Spectre.</string>
+    <string name="weekend_showing">Weekends[Fri,Sat and Sun]:\n 3.45PM, 6.30PM</string>
+    <string name="weekday_showing">Weekdays[Mon,Tue,Wed and Thu]:\n 3.45PM, 6.30PM</string>
+    <string name="eperience_desc_5d">Come to Century Cinemas at Kigali City Tower to watch, f
+        eel and live every second of one of our amazing 5D Cinema experiences.
+Our new 5D Cinema theatre boasts cutting edge 3D technology powered by full motion viewing seats,
+        incredible digital surround sound and a combination of special
+        effects to overload your senses and bring you closer to the action than ever before.
+You really have to see it (and feel it) to believe just how good our 5D Cinema experience is, s
+        o bring your family and friends along to Century Cinemas at Kigali City Tower for a great day out in Kigali.</string>
+    <string name="show_time_title">SHOW TIMES</string>
+    <string name="show_time_content">1.00PM, 1.30PM, 2.00PM, 2.30PM, 3.00PM,
+        3.30PM, 4.00PM, 4.30PM, 5.00PM, 5.30PM, 6.00PM, 6.30PM, 7.00PM, 7.30PM, 8.00PM, 8.30PM and 9.00PM.</string>
     <string name="action_example">Example action</string>
+    <string name="ticketing_title_weekday">Weekend and Public Holidays</string>
 
     <string name="action_settings">Settings</string>
 </resources>
