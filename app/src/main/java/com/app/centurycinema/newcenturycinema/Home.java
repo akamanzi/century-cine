@@ -2,6 +2,7 @@ package com.app.centurycinema.newcenturycinema;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
@@ -19,6 +20,7 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Home extends AppCompatActivity
@@ -33,6 +35,9 @@ public class Home extends AppCompatActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+
+    //declaring widgets
+    ImageButton imageButton;
 
     //menu icons
     /*
@@ -51,8 +56,19 @@ public class Home extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        imageButton = (ImageButton) findViewById(R.id.trailer_button);
        // String[] description = getResources().getStringArray(R.array.menu_icon_desc);
        // int[] icons = getResources().getIntArray(R.array.menu_icons);
+
+        //when trailer button is clicked
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent youtubetrailer = new Intent(Intent.ACTION_VIEW);
+                youtubetrailer.setData(Uri.parse("https://www.youtube.com/watch?v=mBBuzHrZBro"));
+                startActivity(youtubetrailer);
+            }
+        });
 
         /*
         GridView gridView = (GridView) findViewById(R.id.gridview);
