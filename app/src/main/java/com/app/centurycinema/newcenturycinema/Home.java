@@ -103,6 +103,12 @@ public class Home extends AppCompatActivity
             case 3:
                 Intent experience_5d = new Intent(Home.this,Experience5D.class);
                 startActivity(experience_5d);
+                break;
+
+            case 2:
+                Intent ticketing = new Intent(Home.this,TicketPricing.class);
+                startActivity(ticketing);
+                break;
 
         }
     }

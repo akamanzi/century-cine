@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/century_cine_app_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/experiece_5d_picture"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weekends"
+        android:textColor="#ffa500"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experince_ticketing"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experience_2d"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3500"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experience_3d"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4500"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Weekdays"
+        android:textColor="#ffa500"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experince_ticketing"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/experience_2d"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3000"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experience_3d"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4000"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
