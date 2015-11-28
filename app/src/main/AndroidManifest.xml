@@ -19,7 +19,13 @@
 
         <activity
             android:name=".ComingSoon"
-            android:label="Coming Soon" >
+            android:label="Coming Soon"
+            android:parentActivityName=".Home">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home"/>
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +35,13 @@
 
         <activity
             android:name=".Experience5D"
-            android:label="5D Experience" >
+            android:label="5D Experience"
+            android:parentActivityName=".Home">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home"/>
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
