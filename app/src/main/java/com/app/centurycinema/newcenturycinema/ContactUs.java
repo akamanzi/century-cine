@@ -10,12 +10,12 @@ import android.support.v7.app.ActionBarActivity;
 /**
  * Created by Arnold on 11/28/15.
  */
-public class TicketPricing extends ActionBarActivity {
+public class ContactUs extends ActionBarActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ticketing);
+        setContentView(R.layout.contact_us);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ffa500")));

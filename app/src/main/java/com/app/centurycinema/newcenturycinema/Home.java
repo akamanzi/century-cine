@@ -2,6 +2,8 @@ package com.app.centurycinema.newcenturycinema;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +24,8 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import org.apache.http.client.methods.HttpOptions;
 
 public class Home extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -83,6 +87,10 @@ public class Home extends AppCompatActivity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ffa500")));
+
     }
 
     @Override
@@ -103,6 +111,11 @@ public class Home extends AppCompatActivity
             case 3:
                 Intent experience_5d = new Intent(Home.this,Experience5D.class);
                 startActivity(experience_5d);
+                break;
+
+            case 4:
+                Intent contact_us = new Intent(Home.this,ContactUs.class);
+                startActivity(contact_us);
                 break;
 
             case 2:
